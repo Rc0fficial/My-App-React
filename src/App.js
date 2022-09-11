@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-      <Navbar title = "Arsol" />
+      <Navbar title = "Arsol" about = "about" />
     </>
   );
 }
