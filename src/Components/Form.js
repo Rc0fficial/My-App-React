@@ -9,6 +9,7 @@ function TextControlsExample(props) {
           <Form.Control as="textarea" rows={10} />
         </Form.Group>
       </Form>
+      <button className="btn btn-primary">Convert to upper case</button>
     </div>
   );
 }
