@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar title = "Arsol" about = "about" />
-      <Form/>
+      <Form heading = "Type your text inside" />
       
     </>
   );

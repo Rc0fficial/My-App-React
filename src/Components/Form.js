@@ -1,14 +1,16 @@
-import Form from 'react-bootstrap/Form';
+import Form from "react-bootstrap/Form";
 
-function TextControlsExample() {
+function TextControlsExample(props) {
   return (
-    <Form>
-
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>myBox</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-    </Form>
+    <div className="container">
+        <h1>{props.heading}</h1>
+      <Form>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label> {props.heading} </Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+      </Form>
+    </div>
   );
 }
 
