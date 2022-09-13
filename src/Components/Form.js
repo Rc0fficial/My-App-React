@@ -4,6 +4,7 @@ import React, {useState}  from "react";
 
 function TextControlsExample(props) {
   const handleUpClick = () => {
+    // console.log("upper case was clicked" + text)
     let newText = text.toUpperCase();
     setText(newText);
   };
@@ -19,11 +20,11 @@ function TextControlsExample(props) {
       <Form>
         <Form.Group
           className="mb-3"
-          value={text}
-          onChange={handleOnChange}
+          
           controlId="exampleForm.ControlTextarea1"
         >
-          <Form.Control as="textarea" rows={10} />
+          <Form.Control as="textarea" value={text}
+          onChange={handleOnChange} rows={10} />
         </Form.Group>
       </Form>
       <button className="btn btn-primary" onClick={handleUpClick}>
