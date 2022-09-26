@@ -12,7 +12,7 @@ function TextControlsExample(props) {
     setText(newText);
   };
   const handleClearClick = () => {
-    let newText = ('');
+    let newText = "";
     setText(newText);
   };
   const handleOnChange = (event) => {

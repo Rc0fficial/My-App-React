@@ -12,6 +12,7 @@ export default function TestAbout() {
       setMyStyle({
         color: "white",
         backgroundColor: "black",
+        border: '1px solid white'
       })
       setBtnText("Enable Light mode")
     } else {
